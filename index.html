@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Jackie's Website
+        </title>
+        <style>
+            #header
+            body{
+                background-color:aliceblue
+            }
+            html {
+                scroll-behavior: smooth;
+            }
+            ul {
+                font-family:Arial, sans-serif;
+            }
+
+            a:link {
+                color: blue;
+            }
+            a:visited {
+                color: purple;
+            }
+            a:hover {
+                color: hotpink;
+            }
+            a:active {
+                color: green;
+            }
+            h1 {
+                font-family: Arial, sans-serif;
+                font-size: 64px;
+                text-align:center;
+                left:5%
+            }
+            h2 {
+                font-family: Arial, sans-serif;
+                color: black;
+                font-size: 32px;
+                text-align:center;
+            }
+            h3 {
+                font-family: Arial, sans-serif;
+                color: black; 
+                margin: 10px;
+            }
+            p {
+                font-family: Arial, sans-serif;
+                max-width: 95%; 
+                margin: 20px;
+                padding: 5px;
+                color: dimgray;
+            }
+            ol {
+                font-family: Arial, sans-serif;
+            }
+            table {
+                font-family: Arial, sans-serif;
+                border-collapse: collapse;
+                width: 80%;
+            }
+            tr {
+                border-bottom: 1px solid #ddd;
+            }
+            fieldset{
+                font-family: Arial, sans-serif;
+                width:400px
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="main">
+            <h1> Welcome to my website! &#129299</h1>
+            <h3> Website Contents</h3>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#keyboard">Learn more about keyboards</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div>
+                <h2 >About Me</h2>
+                <p   id="about-me" style="text-align: center; width:100%;" >
+                    Hi! My name is <b>Jackie Zhang</b>. I'm a <b>Global Business and Digital Arts</b> student based in Waterloo/Markham. Something about me is that I enjoy many different hobbies ranging from reading, to Taekwondo, to building keyboards. Here's a picture of a cat.
+                    <br>
+                    <br>
+                    <img src="https://i.imgur.com/noC0e4R.jpeg" alt="cat" style="width:80%; height:80%">
+                </p>
+                <div id="contact">
+                    <a href="mailto:j282zhan@uwaterloo.ca"><h2 style="border-style: solid; background-color:floralwhite;">Contact Me</h2></a>
+                    <p >
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="keyboard">
+            <h2>The Keyboard Rabbit Hole</h2>
+            <h3> Table of Contents</h3>
+            <ol> 
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#layout">Layout</a></li>
+                <li><a href="#keycaps">Keycaps</a></li>
+                <li><a href="#switches">Switches</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>   
+            </ol>
+            <fieldset>
+                <legend>How interested are you in building a keyboard?:</legend>
+                <input type="radio" id="not-interested" name="interest" value="Not Interested">
+                <label for="not-interested">Not Interested</label><br>
+                <input type="radio" id="interested" name="interest" value="Interested">
+                <label for="interested">Interested</label><br>
+                <input type="radio" id="built" name="interest" value="I've already built one!">
+                <label for="built">I've already built one!</label><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+
+            <div id="introduction">
+                <h3>Introduction</h3>
+                <p>
+                    The keyboard is a tool we use on the daily. Why not customize it to our liking to have a greater typing experience whenever we do work, message friends, or play games? There's a big misconception that you need to spend a lot of money to build a nice keyboard to your liking, but that is not the case! My keyboard costed aorund <b>$130</b> (I could have saved more on the keycaps) when I built it 2 years back, but the increase in popularity has lowered the cost even more of many entry level keyboards. Here's a demonstration of my keyboard :)
+                    <br>
+                    <center>
+                        <iframe width="400px" height="300px"
+                                src="https://youtube.com/embed/juMPb_Fef80">
+                        </iframe>
+                    </center>
+                </p>
+            </div>
+
+            <div id="layout"> 
+                <h3>Layouts</h3>
+                <p>
+                    There are various different layouts when it comes to keyboards. The most common types go by 100% (Full Size), 80%/Tenkeyless (TKL), 75%, 65%, and 60% (Compact).  Although these are some of the most common, there are still many types that may be larger or smaller than the sizes listed.
+                    <br><br>
+                    <!--
+Image copied from: https://prosettings.net/blog/keyboard-size-differences-explained/
+Author: prosettings.net
+Name: The Most Common Keyboard Sizes
+Description: Displays a variety of different keyboard sizes and some facts about them.
+Date retrieved: Dec 1, 2023
+-->
+                    <img src="https://prosettings.net/cdn-cgi/image/dpr=1%2Cf=auto%2Cfit=cover%2Cheight=540%2Cq=85%2Cwidth=960/wp-content/uploads/keyboard-sizes.png" alt="chart" style="width: 80%; height: 80%;">
+
+                    <!--
+Image copied from: https://www.keyboard.university/100-courses/keycaps-101-ydy8j
+Author: keyboard.university
+Name: Anatomy of A Keyboard
+Description: Shows the anatomy of a full-sized keyboard.
+Date retrieved: Dec 1, 2023
+-->
+                    <img src="https://images.squarespace-cdn.com/content/v1/6116b9604a8e6b639a58a447/1628879296763-FD1T460UZBIS1R4DLAUX/keyboard-anatomy_20200413.jpg?format=2500w" alt="anatomy" style="width: 80%; height: 80%;">
+                </p>
+            </div>
+
+            <div id="keycaps">
+                <h3>Keycaps</h3>
+                <p>
+                    There isn't much when it comes to keycaps, but there are a few things you should know! Firstly is the 2 common types of plastic used in making them: PBT and ABS. Each of them have their pros and cons which I won't get into, but PBT material is typically considered to be the superior option. Secondly, there are various keycap profiles. Keycap profiles describe the height, shape, and form of the rows in a set of keycaps. The most common types are OEM and Cherry, but some prefer other types as well. The keycaps that come on most mass produced keyboards are known as OEM shape. From left to right are typical keyboard rows from top to bottom. 
+                    <br><br>
+
+                    <!--
+Image copied from: https://thekeeblog.com/overview-of-different-keycap-profiles/
+Author: keycaps.info or /u/gtderEvan on Reddit
+Name: Keycaps
+Description: Shows various keycap profiles.
+Date retrieved: Dec 1, 2023
+-->
+                    <img src="https://i0.wp.com/thekeeblog.com/wp-content/uploads/2020/10/gtderEvan.png?w=640&ssl=1" alt="keycapchart" style="width: 60%;height:60%;">
+                </p>
+            </div>
+
+            <div id="switches">
+                <h3>Switches</h3>
+                <p>
+                    There are 3 main types of mechanical switches that are typically used in custom mechanical keyboards. These switches listed are part of the <i>Cherry MX</i> lineup, which are some of the first mechanical switches ever created. There are probably a couple hundred different switches at this point, but these are still some of the most common ones. Cherry MX red switches are the easier to press down, and don't have any tactile feedback. The brown switch is similar to a red switch, except there's a small bump to indicate an actuation of the switch to the user. Lastly the blue switch is the hardest to press, with a significantly greatly bump that makes a clicky sound when actuated. 
+                </p>
+                <table>
+                    <caption>
+                        <b>Cherry MX Switches</b>
+                    </caption>
+                    <tr>
+                        <th>Switch Type</th>
+                        <td>Red</td>
+                        <td>Brown</td>
+                        <td>Blue</td>
+                    </tr>
+                    <tr>
+                        <th>Actuation Force</th>
+                        <td>45(+-)15gf</td>
+                        <td>55(+-)15gf</td>
+                        <td>60(+-)15gf</td>
+                    </tr>
+                    <tr>
+                        <th>Pre-Travel</th>
+                        <td>2.0(+-)0.6mm</td>
+                        <td>2.0(+-)0.6mm</td>
+                        <td>2.3(+-)0.6mm</td>
+                    </tr>
+                    <tr>
+                        <th>Feeling</th>
+                        <td>Linear</td>
+                        <td>Tactile</td>
+                        <td>Clicky</td>
+                    </tr>
+                </table>
+                <br>
+                <!--
+GIF copied from: https://www.penaddict.com/blog/2020/3/11/a-brief-introduction-to-mechanical-keyboard-switches
+Author: Jeff Abbott / The Pen Addict
+Name: Switch Comparison
+Description: Anatomy of Switches.
+Date retrieved: Dec 1, 2023
+-->
+                <img src="https://media.steelseriescdn.com/blog/posts/a-guide-on-gaming-keyboard-switches/63d6e74f9a8a4dbaaae6dcaed0b76479.gif" alt="chart" style="width: 80%; height:80%;">
+            </div>
+            <div id="conclusion">
+                <h3>Conclusion</h3>
+                <p>
+                    Mechanical keyboards definitely get much deeper than this, but it would be way too much to cover by myself. If you want to learn more about keyboards, there's many resources like <a href="https://www.reddit.com/r/MechanicalKeyboards/"><b>Reddit</b></a>, <a href="https://www.youtube.com/@TaehaTypes/featured"><b>YouTube</b></a>, or <a href="https://www.keyboard.university/"><b>Keyboard University</b></a> if you want to learn more!
+                </p>
+            </div>
+        </div>
+
+
+
+    </body>
+</html>
